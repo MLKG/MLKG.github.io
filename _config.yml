@@ -13,7 +13,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     MLKG
-zhihu_username:     MLKG
+zhihu_username:     zeng-gui-lin-88
 github_username:    MLKG
 #twitter_username:  huxpro
 facebook_username:  MLKG
@@ -70,7 +70,7 @@ ga_domain: dalin.tech
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-dalin.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
