@@ -1,5 +1,7 @@
-### Welcome to Dalinghui, this is my experience sharing, and if you have any questions you can contact me through the following ways:
+### Welcome to Dalin.
 
-QQ:1059158548
-Email:dalinhui@yeah.net
+*QQ:1059158548
+*Email:dalinhui@yeah.net
+
+此Github Page主题来自[https://github.com/Huxpro/huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)
 

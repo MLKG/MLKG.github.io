@@ -3,8 +3,8 @@ title: Dalin Blog
 SEOTitle: Dalin的博客 | Dalin Blog
 header-img: img/home-bg-dalin.jpg
 email: dalinhui@yeah.net
-description: "关于前端与设计、黑客与画家 | Dalin，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Dalin 的个人博客，与你一起发现更大的世界。"
-keyword: "Dalin, Dalin的博客, Dalin Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 惠的男朋友"
+description: "关于前端与设计、黑客与画家 | Dalin，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Dalin 的个人博客，与你一起发现更神奇的世界。"
+keyword: "Dalin, Dalin的博客, Dalin Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 惠的男朋友, 天才的象征"
 url: "http://dalin.tech"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,12 +12,12 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     MLKG
+weibo_username:     我是曾桂林
 zhihu_username:     zeng-gui-lin-88
 github_username:    MLKG
-#twitter_username:  huxpro
-facebook_username:  MLKG
-# linkedin_username:  firstname-lastname-idxxxx
+#twitter_username:  MLKG
+facebook_username:  mlkg88
+# linkedin_username:  桂林-曾-a6396a100
 
 
 
@@ -27,7 +27,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true       # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
@@ -60,22 +60,22 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 1e7233a1e7203ce475b8b13c2b535351
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-83707798-1'      # Format: UA-xxxxxx-xx
 ga_domain: dalin.tech
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
+sidebar-about-description: "我就是我,做不一样的烟火。"
 sidebar-avatar: /img/about-dalin.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
