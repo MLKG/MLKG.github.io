@@ -1,0 +1,153 @@
+html,
+body {
+  color: #333;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 414px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Arial", "Microsoft yahei", "SimSun";
+}
+@media only screen and (min-width: 320px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+.border {
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+.border:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  border-top: 1px solid #c8c8c8;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+}
+@media only screen and (min-width: 320px) {
+  .footer {
+    height: 48px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .footer {
+    height: 52px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .footer {
+    height: 54px;
+  }
+}
+.footer__item {
+  width: 20%;
+  float: left;
+}
+.footer__item_home {
+  background: url(../img/icon/tab_homepage@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer__item_find {
+  background: url(../img/icon/tab_find@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer__item_grocery {
+  background: url(../img/icon/tab_grocery-store@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer__item_mall {
+  background: url(../img/icon/tab_mall@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer__item_my {
+  background: url(../img/icon/tab_my@2x.png) no-repeat;
+  background-size: 100%;
+}
+@media only screen and (min-width: 320px) {
+  .footer__item_img {
+    display: inline-block;
+    margin-top: 4px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .footer__item_img {
+    display: inline-block;
+    margin-top: 4px;
+    height: 26px;
+    width: 26px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .footer__item_img {
+    display: inline-block;
+    margin-top: 4px;
+    height: 28px;
+    width: 28px;
+  }
+}
+.footer__item_text {
+  margin-top: -2px;
+}
+.footer .active .footer__item_home {
+  background: url(../img/icon/tab_homepage_s@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer .active .footer__item_find {
+  background: url(../img/icon/tab_find_s@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer .active .footer__item_grocery {
+  background: url(../img/icon/tab_grocery-store_s@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer .active .footer__item_my {
+  background: url(../img/icon/tab_homepage_s@2x.png) no-repeat;
+  background-size: 100%;
+}
+.footer_placeholder {
+  width: 100%;
+}
+@media only screen and (min-width: 320px) {
+  .footer_placeholder {
+    height: 54px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .footer_placeholder {
+    height: 58px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .footer_placeholder {
+    height: 60px;
+  }
+}
