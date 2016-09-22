@@ -44,7 +44,7 @@ body {
 }
 .home__search {
   position: fixed;
-  top: 20px;
+  top: 2%;
   z-index: 2;
   width: 100%;
   max-width: 414px;
