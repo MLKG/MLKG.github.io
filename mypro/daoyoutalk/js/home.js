@@ -3,8 +3,8 @@
  */
 
 $(document).ready(function () {
-    var swiper = new Swiper('.home__container', {
-        pagination: '.home__pagination',
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
         paginationClickable: true,
         autoplay : 1800,
         loop : true
