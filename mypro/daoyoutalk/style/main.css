@@ -829,7 +829,6 @@ body {
   }
 }
 .home__near_text {
-  width: 11%;
   background-color: white;
   border: 1px solid #c8c8c8;
   display: inline-block;
@@ -837,6 +836,24 @@ body {
   border-radius: 50%;
   margin-right: 20px;
   padding: 2px;
+}
+@media only screen and (min-width: 320px) {
+  .home__near_text {
+    width: 33px;
+    height: 33px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .home__near_text {
+    width: 38px;
+    height: 38px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .home__near_text {
+    width: 42px;
+    height: 42px;
+  }
 }
 .home-list {
   margin-left: 12px;
