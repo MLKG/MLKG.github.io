@@ -17,6 +17,6 @@ function showChose(){
 }
 
 function goAttractions(){
-    window.open("dalin.tech/mypro/daoyoutalk/template/attractions-list.html")
+    window.open("http://dalin.tech/mypro/daoyoutalk/template/attractions-list.html")
 }
 
