@@ -27,3 +27,20 @@ body {
 .overflow-hidden {
   overflow: hidden;
 }
+.border {
+  width: 100%;
+  position: relative;
+}
+.border:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 200%;
+  border-top: 1px solid #c8c8c8;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+}

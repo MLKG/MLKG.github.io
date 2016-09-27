@@ -1,0 +1,55 @@
+@import "common.less";
+
+.header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    max-width: @max-width;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid @gray;
+    &__back{
+        width: 15%;
+        height: 36px;
+        float: left;
+        &:before{
+            top: 12px;
+            left: 15px;
+            border: solid 1px transparent;
+            border-left-color: @red;
+            border-bottom-color: @red;
+            content: " ";
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            .transform-rotate(45deg);
+        }
+    }
+    &__title{
+        text-align: center;
+        width: 70%;
+        font-size: 1.1rem;
+        float: left;
+    }
+    &__search{
+        width: 15%;
+        height: 36px;
+        float: left;
+        &:after{
+            top: 6.5px;
+            right: 15px;
+            background: url(../img/icon/search@2x.png) no-repeat;
+            height: 20px;
+            width: 20px;
+            background-size: 100%;
+            content: " ";
+            position: absolute;
+        }
+    }
+    &_placeholder {
+        height: 36px;
+    }
+
+}

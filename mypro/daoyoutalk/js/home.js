@@ -16,3 +16,7 @@ function showChose(){
     $(".home-list__item").show();
 }
 
+function goAttractions(){
+    window.open("dalin.tech/mypro/daoyoutalk/template/attractions-list.html")
+}
+

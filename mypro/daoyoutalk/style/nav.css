@@ -1,0 +1,292 @@
+html,
+body {
+  color: #333;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 414px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Arial", "Microsoft yahei", "SimSun";
+}
+@media only screen and (min-width: 320px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  max-width: 414px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 36px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1.05rem;
+  background-color: #f8f8f8;
+  z-index: 9;
+}
+.nav__item {
+  width: 33.33333333%;
+  float: left;
+  border-bottom: 1px solid #c8c8c8;
+  position: relative;
+}
+.nav__item_caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed #333;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  transition: transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  /* Firefox 4 */
+  -webkit-transition: -webkit-transform 0.3s;
+  /* Safari and Chrome */
+  -o-transition: -o-transform 0.3s;
+  /* Opera */
+}
+.nav__item_shadow {
+  display: none;
+  position: fixed;
+  top: 73px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  z-index: 1;
+  opacity: 0.3;
+}
+.nav__item.active {
+  background-color: #f1f1f1;
+}
+.nav__item.active .nav__item_caret {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.nav__item.active .nav__item_shadow {
+  display: block;
+}
+.nav-one__left {
+  width: 33%;
+  float: left;
+  height: 0;
+  overflow-y: scroll;
+  background-color: white;
+  transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  /* Firefox 4 */
+  -webkit-transition: height 0.2s;
+  /* Safari and Chrome */
+  -o-transition: height 0.2s;
+  /* Opera */
+  z-index: 10;
+  position: relative;
+}
+.nav-one__left_item {
+  position: relative;
+}
+.nav-one__left_item:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 35.5px;
+  width: 200%;
+  border-top: 1px solid #c8c8c8;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  z-index: 10;
+}
+.nav-one__left_item.selected {
+  background-color: #f8f8f8;
+}
+.nav-one__right {
+  width: 67%;
+  float: left;
+  text-align: left;
+  height: 0;
+  overflow-y: scroll;
+  background-color: #f2f2f2;
+  transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  /* Firefox 4 */
+  -webkit-transition: height 0.2s;
+  /* Safari and Chrome */
+  -o-transition: height 0.2s;
+  /* Opera */
+  z-index: 10;
+  position: relative;
+}
+.nav-one__right_item {
+  position: relative;
+  padding-left: 15px;
+  background-color: #f8f8f8;
+}
+.nav-one__right_item:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 35.5px;
+  width: 200%;
+  border-top: 1px solid #c8c8c8;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  z-index: 10;
+}
+.nav-one__right_item.selected:before {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border: solid 1px transparent;
+  border-left-color: #eb5a29;
+  border-bottom-color: #eb5a29;
+  height: 7px;
+  width: 15px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.nav-one.active .nav-one__left,
+.nav-one.active .nav-one__right {
+  height: 288px;
+}
+.nav-two__center {
+  width: 100%;
+  height: 0;
+  overflow-y: hidden;
+  background-color: white;
+  transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  /* Firefox 4 */
+  -webkit-transition: height 0.2s;
+  /* Safari and Chrome */
+  -o-transition: height 0.2s;
+  /* Opera */
+  z-index: 10;
+  position: relative;
+}
+.nav-two__center_item {
+  position: relative;
+}
+.nav-two__center_item:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 35.5px;
+  width: 200%;
+  border-top: 1px solid #c8c8c8;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  z-index: 10;
+}
+.nav-two__center_item.selected {
+  background-color: #f8f8f8;
+}
+.nav-two__center_item.selected:before {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border: solid 1px transparent;
+  border-left-color: #eb5a29;
+  border-bottom-color: #eb5a29;
+  height: 7px;
+  width: 15px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.nav-two.active .nav-two__center {
+  height: 288px;
+}
+.nav-three__center {
+  width: 100%;
+  height: 0;
+  overflow-y: hidden;
+  background-color: white;
+  transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  /* Firefox 4 */
+  -webkit-transition: height 0.2s;
+  /* Safari and Chrome */
+  -o-transition: height 0.2s;
+  /* Opera */
+  z-index: 10;
+  position: relative;
+}
+.nav-three__center_item {
+  position: relative;
+}
+.nav-three__center_item:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 35.5px;
+  width: 200%;
+  border-top: 1px solid #c8c8c8;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  z-index: 10;
+}
+.nav-three__center_item.selected {
+  background-color: #f8f8f8;
+}
+.nav-three__center_item.selected:before {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border: solid 1px transparent;
+  border-left-color: #eb5a29;
+  border-bottom-color: #eb5a29;
+  height: 7px;
+  width: 15px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.nav-three.active .nav-three__center {
+  height: 144px;
+}
+.nav_placeholder {
+  height: 36px;
+}
