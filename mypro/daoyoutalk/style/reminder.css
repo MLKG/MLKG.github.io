@@ -93,6 +93,13 @@ body {
     height: 44px;
   }
 }
-.reminder__icon_text hr {
-  margin: 4px;
+.reminder__icon_text_one {
+  display: inline-block;
+  border-bottom: 1px solid #c8c8c8;
+  width: 30px;
+  padding: 2px 0;
+}
+.reminder__icon_text_two {
+  display: inline-block;
+  padding: 2px 0;
 }
