@@ -42,5 +42,12 @@ $(document).ready(function () {
         }else{
             $element.addClass("active");
         }
-    })
+
+        document.addEventListener("touchmove",function(e){
+            if($("html").hasClass("overflow-hidden")){
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        },false);
+    });
 });
