@@ -1,0 +1,59 @@
+@import "common.less";
+//my near
+.reminder{
+    &__icon{
+        position: fixed;
+        right: 0;
+        width: 100%;
+        max-width: @max-width;
+        margin: auto;
+        left: 0;
+        text-align: right;
+        &_near{
+            @media only screen and(min-width: 320px) {
+                bottom: @nav-height + 6 + 10;
+            }
+            @media only screen and(min-width: 375px) {
+                bottom: @nav-height + 4 + 6 + 10 ;
+            }
+            @media only screen and(min-width: 414px) {
+                bottom: @nav-height + 8 + 6 + 10;
+            }
+        }
+        &_count{
+            @media only screen and(min-width: 320px) {
+                bottom: 12px;
+            }
+            @media only screen and(min-width: 375px) {
+                bottom: 14px;
+            }
+            @media only screen and(min-width: 414px) {
+                bottom: 14px;
+            }
+        }
+        &_text {
+            background-color: white;
+            border: 1px solid @gray;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 20px;
+            padding: 3px;
+            @media only screen and(min-width: 320px) {
+                width: 36px;
+                height: 36px;
+            }
+            @media only screen and(min-width: 375px) {
+                width: 40px;
+                height: 40px;
+            }
+            @media only screen and(min-width: 414px) {
+                width: 44px;
+                height: 44px;
+            }
+            hr{
+                margin: 4px;
+            }
+        }
+    }
+}

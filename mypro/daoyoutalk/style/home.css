@@ -127,57 +127,6 @@ body {
 .home__give img {
   width: 100%;
 }
-.home__near {
-  position: fixed;
-  right: 0;
-  width: 100%;
-  max-width: 414px;
-  margin: auto;
-  left: 0;
-  text-align: right;
-}
-@media only screen and (min-width: 320px) {
-  .home__near {
-    bottom: 64px;
-  }
-}
-@media only screen and (min-width: 375px) {
-  .home__near {
-    bottom: 68px;
-  }
-}
-@media only screen and (min-width: 414px) {
-  .home__near {
-    bottom: 70px;
-  }
-}
-.home__near_text {
-  background-color: white;
-  border: 1px solid #c8c8c8;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin-right: 20px;
-  padding: 2px;
-}
-@media only screen and (min-width: 320px) {
-  .home__near_text {
-    width: 36px;
-    height: 36px;
-  }
-}
-@media only screen and (min-width: 375px) {
-  .home__near_text {
-    width: 40px;
-    height: 40px;
-  }
-}
-@media only screen and (min-width: 414px) {
-  .home__near_text {
-    width: 44px;
-    height: 44px;
-  }
-}
 .home-list {
   margin-left: 12px;
   margin-right: 12px;

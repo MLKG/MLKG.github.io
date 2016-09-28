@@ -1,0 +1,98 @@
+html,
+body {
+  color: #333;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 414px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Arial", "Microsoft yahei", "SimSun";
+}
+@media only screen and (min-width: 320px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+.overflow-hidden {
+  overflow-y: hidden;
+}
+.reminder__icon {
+  position: fixed;
+  right: 0;
+  width: 100%;
+  max-width: 414px;
+  margin: auto;
+  left: 0;
+  text-align: right;
+}
+@media only screen and (min-width: 320px) {
+  .reminder__icon_near {
+    bottom: 64px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .reminder__icon_near {
+    bottom: 68px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .reminder__icon_near {
+    bottom: 72px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .reminder__icon_count {
+    bottom: 12px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .reminder__icon_count {
+    bottom: 14px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .reminder__icon_count {
+    bottom: 14px;
+  }
+}
+.reminder__icon_text {
+  background-color: white;
+  border: 1px solid #c8c8c8;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  padding: 3px;
+}
+@media only screen and (min-width: 320px) {
+  .reminder__icon_text {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .reminder__icon_text {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .reminder__icon_text {
+    width: 44px;
+    height: 44px;
+  }
+}
+.reminder__icon_text hr {
+  margin: 4px;
+}
