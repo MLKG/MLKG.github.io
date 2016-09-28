@@ -7,11 +7,11 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 36px;
+    //top: 36px;
     text-align: center;
-    height: 36px;
-    line-height: 36px;
-    font-size: 1.05rem;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
     background-color: @light-gray-3;
     z-index: 9;
     &__item{
@@ -36,12 +36,12 @@
         &_shadow{
             display: none;
             position: fixed;
-            top: 73px;
+            top: 82px;
             left: 0;
             bottom: 0;
             right: 0;
             background-color: black;
-            z-index: 1;
+            z-index: -1;
             opacity: 0.3;
         }
         &.active{
@@ -67,7 +67,7 @@
             &_item{
                 position: relative;
                 &:after{
-                    .border-point-five(@gray,36px - 0.5);
+                    .border-point-five(@gray,40px - 0.5);
                     z-index: 10;
                 }
                 &.selected{
@@ -90,7 +90,7 @@
                 padding-left: 15px;
                 background-color: @light-gray-3;
                 &:after{
-                    .border-point-five(@gray,36px - 0.5);
+                    .border-point-five(@gray,40px - 0.5);
                     z-index: 10;
                 }
                 &.selected{
@@ -102,7 +102,7 @@
         }
         &.active{
             .nav-one__left,.nav-one__right{
-                height: 36px * 8;
+                height: 40px * 8;
             }
         }
     }
@@ -118,7 +118,7 @@
             &_item{
                 position: relative;
                 &:after{
-                    .border-point-five(@gray,36px - 0.5);
+                    .border-point-five(@gray,40px - 0.5);
                     z-index: 10;
                 }
                 &.selected{
@@ -131,7 +131,7 @@
         }
         &.active{
             .nav-two__center{
-                height: 36px * 8;
+                height: 40px * 8;
             }
         }
     }
@@ -147,7 +147,7 @@
             &_item{
                 position: relative;
                 &:after{
-                    .border-point-five(@gray,36px - 0.5);
+                    .border-point-five(@gray,40px - 0.5);
                     z-index: 10;
                 }
                 &.selected{
@@ -160,11 +160,11 @@
         }
         &.active{
             .nav-three__center{
-                height: 36px * 4;
+                height: 40px * 4;
             }
         }
     }
     &_placeholder{
-        height: 36px;
+        height: 41px;
     }
 }

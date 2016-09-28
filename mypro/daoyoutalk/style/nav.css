@@ -34,11 +34,10 @@ body {
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 36px;
   text-align: center;
-  height: 36px;
-  line-height: 36px;
-  font-size: 1.05rem;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.2rem;
   background-color: #f8f8f8;
   z-index: 9;
 }
@@ -68,12 +67,12 @@ body {
 .nav__item_shadow {
   display: none;
   position: fixed;
-  top: 73px;
+  top: 82px;
   left: 0;
   bottom: 0;
   right: 0;
   background-color: black;
-  z-index: 1;
+  z-index: -1;
   opacity: 0.3;
 }
 .nav__item.active {
@@ -111,7 +110,7 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 35.5px;
+  top: 39.5px;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -149,7 +148,7 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 35.5px;
+  top: 39.5px;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -163,7 +162,7 @@ body {
   position: absolute;
   top: 10px;
   right: 15px;
-  border: solid 1px transparent;
+  border: 2px solid transparent;
   border-left-color: #eb5a29;
   border-bottom-color: #eb5a29;
   height: 7px;
@@ -177,7 +176,7 @@ body {
 }
 .nav-one.active .nav-one__left,
 .nav-one.active .nav-one__right {
-  height: 288px;
+  height: 320px;
 }
 .nav-two__center {
   width: 100%;
@@ -201,7 +200,7 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 35.5px;
+  top: 39.5px;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -218,7 +217,7 @@ body {
   position: absolute;
   top: 10px;
   right: 15px;
-  border: solid 1px transparent;
+  border: 2px solid transparent;
   border-left-color: #eb5a29;
   border-bottom-color: #eb5a29;
   height: 7px;
@@ -231,7 +230,7 @@ body {
   -o-transform: rotate(-45deg);
 }
 .nav-two.active .nav-two__center {
-  height: 288px;
+  height: 320px;
 }
 .nav-three__center {
   width: 100%;
@@ -255,7 +254,7 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 35.5px;
+  top: 39.5px;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -272,7 +271,7 @@ body {
   position: absolute;
   top: 10px;
   right: 15px;
-  border: solid 1px transparent;
+  border: 2px solid transparent;
   border-left-color: #eb5a29;
   border-bottom-color: #eb5a29;
   height: 7px;
@@ -285,8 +284,8 @@ body {
   -o-transform: rotate(-45deg);
 }
 .nav-three.active .nav-three__center {
-  height: 144px;
+  height: 160px;
 }
 .nav_placeholder {
-  height: 36px;
+  height: 41px;
 }

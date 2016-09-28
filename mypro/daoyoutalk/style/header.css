@@ -34,8 +34,8 @@ body {
   z-index: 10;
   width: 100%;
   max-width: 414px;
-  height: 36px;
-  line-height: 36px;
+  height: 40px;
+  line-height: 41px;
   border-bottom: 1px solid #c8c8c8;
 }
 .header__back {
@@ -46,12 +46,12 @@ body {
 .header__back:before {
   top: 12px;
   left: 15px;
-  border: solid 1px transparent;
+  border: 2px solid transparent;
   border-left-color: #eb5a29;
   border-bottom-color: #eb5a29;
   content: " ";
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   position: absolute;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -61,7 +61,7 @@ body {
 .header__title {
   text-align: center;
   width: 70%;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   float: left;
 }
 .header__search {
@@ -70,15 +70,15 @@ body {
   float: left;
 }
 .header__search:after {
-  top: 6.5px;
+  top: 7px;
   right: 15px;
   background: url(../img/icon/search@2x.png) no-repeat;
-  height: 20px;
-  width: 20px;
+  height: 26px;
+  width: 26px;
   background-size: 100%;
   content: " ";
   position: absolute;
 }
 .header_placeholder {
-  height: 36px;
+  height: 41px;
 }
