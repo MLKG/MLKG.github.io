@@ -10,30 +10,30 @@ $(document).ready(function () {
             $(".nav-three").removeClass("active").hide();
             if($element.hasClass("active")){
                 $(".nav-one").removeClass("active").show();
-                $("body").removeClass("overflow-hidden");
+                $("html").removeClass("overflow-hidden");
             }else{
                 $(".nav-one").addClass("active").show();
-                $("body").addClass("overflow-hidden");
+                $("html").addClass("overflow-hidden");
             }
         }else if($element.hasClass("tag")){
             $(".nav-one").removeClass("active").hide();
             $(".nav-three").removeClass("active").hide();
             if($element.hasClass("active")){
                 $(".nav-two").removeClass("active").show();
-                $("body").removeClass("overflow-hidden");
+                $("html").removeClass("overflow-hidden");
             }else{
                 $(".nav-two").addClass("active").show();
-                $("body").addClass("overflow-hidden");
+                $("html").addClass("overflow-hidden");
             }
         }else if($element.hasClass("order")){
             $(".nav-one").removeClass("active").hide();
             $(".nav-two").removeClass("active").hide();
             if($element.hasClass("active")){
                 $(".nav-three").removeClass("active").show();
-                $("body").removeClass("overflow-hidden");
+                $("html").removeClass("overflow-hidden");
             }else{
                 $(".nav-three").addClass("active").show();
-                $("body").addClass("overflow-hidden");
+                $("html").addClass("overflow-hidden");
             }
         }
 

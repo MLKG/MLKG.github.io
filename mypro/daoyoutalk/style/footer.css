@@ -25,7 +25,7 @@ body {
   }
 }
 .overflow-hidden {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .footer {
   text-align: center;
@@ -103,6 +103,7 @@ body {
 }
 .footer__item_text {
   margin-top: -2px;
+  font-size: 1.1rem;
 }
 .footer .active .footer__item_home {
   background: url(../img/icon/tab_homepage_s@2x.png) no-repeat;
