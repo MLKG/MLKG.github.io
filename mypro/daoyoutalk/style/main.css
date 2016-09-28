@@ -819,7 +819,7 @@ body {
 }
 .reminder__icon_text_two {
   display: inline-block;
-  padding: 2px 0;
+  padding: 1px 0;
 }
 .border {
   width: 100%;
@@ -1282,6 +1282,7 @@ body {
   margin-left: 35px;
   color: white;
   font-size: 1.3rem;
+  z-index: 10;
 }
 .home__container {
   width: 100%;

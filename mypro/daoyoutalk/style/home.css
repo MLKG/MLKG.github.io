@@ -76,6 +76,7 @@ body {
   margin-left: 35px;
   color: white;
   font-size: 1.3rem;
+  z-index: 10;
 }
 .home__container {
   width: 100%;
