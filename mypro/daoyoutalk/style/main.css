@@ -992,7 +992,7 @@ body {
 .nav-two__center {
   width: 100%;
   height: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
   background-color: white;
   transition: height 0.2s;
   -moz-transition: height 0.2s;
@@ -1046,7 +1046,7 @@ body {
 .nav-three__center {
   width: 100%;
   height: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
   background-color: white;
   transition: height 0.2s;
   -moz-transition: height 0.2s;
