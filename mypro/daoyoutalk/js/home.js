@@ -20,3 +20,9 @@ function goAttractions(){
     window.open("http://dalin.tech/mypro/daoyoutalk/template/attractions-list.html")
 }
 
+function goRestaurant(){
+    window.open("http://dalin.tech/mypro/daoyoutalk/template/restaurant-list.html")
+}
+
+
+

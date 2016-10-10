@@ -12,13 +12,23 @@
     height: 40px;
     line-height: 40px;
     font-size: 1.2rem;
-    background-color: @light-gray-3;
     z-index: 9;
+    &__scroll{
+        position: relative;
+        float: left;
+        &_fix{
+            top: 41px;
+        }
+        .nav__item_shadow{
+            top: 0;
+        }
+    }
     &__item{
         width: 100%/3;
         float: left;
         border-bottom: 1px solid @gray;
         position: relative;
+        background-color: @light-gray-3;
         &_caret{
             display: inline-block;
             width: 0;

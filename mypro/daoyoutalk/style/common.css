@@ -27,3 +27,12 @@ body {
 .overflow-hidden {
   overflow-y: hidden;
 }
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear-float {
+  clear: both;
+}

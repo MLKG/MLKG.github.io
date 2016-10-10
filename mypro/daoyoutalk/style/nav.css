@@ -27,6 +27,15 @@ body {
 .overflow-hidden {
   overflow-y: hidden;
 }
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear-float {
+  clear: both;
+}
 .nav {
   position: fixed;
   width: 100%;
@@ -38,14 +47,24 @@ body {
   height: 40px;
   line-height: 40px;
   font-size: 1.2rem;
-  background-color: #f8f8f8;
   z-index: 9;
+}
+.nav__scroll {
+  position: relative;
+  float: left;
+}
+.nav__scroll_fix {
+  top: 41px;
+}
+.nav__scroll .nav__item_shadow {
+  top: 0;
 }
 .nav__item {
   width: 33.33333333%;
   float: left;
   border-bottom: 1px solid #c8c8c8;
   position: relative;
+  background-color: #f8f8f8;
 }
 .nav__item_caret {
   display: inline-block;

@@ -1,0 +1,136 @@
+html,
+body {
+  color: #333;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 414px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Arial", "Microsoft yahei", "SimSun";
+}
+@media only screen and (min-width: 320px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+.overflow-hidden {
+  overflow-y: hidden;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear-float {
+  clear: both;
+}
+.restaurant_header {
+  height: 5px;
+}
+.restaurant__header {
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+}
+.restaurant__header_width {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.restaurant__header_item {
+  width: 49%;
+  float: left;
+  display: inline-block;
+}
+.restaurant__header_item:last-child {
+  margin-left: 1%;
+  float: right;
+}
+.restaurant__header_img {
+  width: 100%;
+}
+.restaurant__content {
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 1.1rem;
+}
+.restaurant__content_img {
+  width: 105%;
+}
+.restaurant__content_left {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+}
+.restaurant__content_right {
+  display: inline-block;
+  width: 72%;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.restaurant__content_name {
+  font-size: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.restaurant__content_cf {
+  position: relative;
+  display: flex;
+}
+.restaurant__content_c {
+  display: inline-block;
+  width: 40%;
+}
+.restaurant__content_c_img {
+  background: url(../img/icon/surround_click@2x.png) no-repeat;
+  background-size: 100%;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+}
+.restaurant__content_f {
+  display: inline-block;
+  width: 60%;
+}
+.restaurant__content_f_img {
+  background: url(../img/icon/Collection@3x.png) no-repeat;
+  background-size: 100%;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+}
+.restaurant__content_title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.restaurant__content_tag {
+  display: inline-block;
+  width: 70%;
+}
+.restaurant__content_distance {
+  display: inline-block;
+  width: 28%;
+}
+.restaurant_placeholder {
+  height: 8px;
+  background-color: #f8f8f8;
+}
