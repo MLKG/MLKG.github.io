@@ -24,5 +24,9 @@ function goRestaurant(){
     window.open("http://dalin.tech/mypro/daoyoutalk/template/restaurant-list.html")
 }
 
+function goShopping(){
+    window.open("http://dalin.tech/mypro/daoyoutalk/template/shopping-list.html")
+}
+
 
 

@@ -28,9 +28,9 @@
     &__content{
         margin-left: 12px;
         margin-right: 12px;
-        font-size: 1.1rem;
+        font-size: 1.0rem;
         &_img{
-            width: 105%;
+            width: 100%;
         }
         &_left{
             display: inline-block;
@@ -43,8 +43,22 @@
             margin-left: 4px;
             vertical-align: middle;
         }
+        &_shopleft{
+            display: inline-block;
+            width: 32%;
+            vertical-align: middle;
+            &_placeholder{
+                display: inline-block;
+            }
+        }
+        &_shopright{
+            display: inline-block;
+            width: 65%;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
         &_name{
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
@@ -81,6 +95,19 @@
                 margin-right: 4px;
             }
         }
+        &_coupon{
+            color: @red;
+            &_img{
+                background: url(../img/icon/shop_coupon@2x.png) no-repeat;
+                background-size: 100%;
+                height: 16px;
+                width: 16px;
+                display: inline-block;
+                position: relative;
+                top: 3px;
+                margin-right: 4px;
+            }
+        }
         &_title{
             overflow: hidden;
             white-space: nowrap;
@@ -89,10 +116,12 @@
         &_tag{
             display: inline-block;
             width: 70%;
+            margin-bottom: 2px;
         }
         &_distance{
             display: inline-block;
             width: 28%;
+            margin-bottom: 2px;
         }
     }
     &_placeholder{

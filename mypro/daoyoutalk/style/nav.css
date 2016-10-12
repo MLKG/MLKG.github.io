@@ -95,6 +95,9 @@ body {
   z-index: -1;
   opacity: 0.3;
 }
+.nav__item_half {
+  width: 50%;
+}
 .nav__item.active {
   background-color: #f1f1f1;
 }
@@ -251,6 +254,9 @@ body {
 }
 .nav-two.active .nav-two__center {
   height: 320px;
+}
+.nav-two.active .nav-two__center_half {
+  height: 80px;
 }
 .nav-three__center {
   width: 100%;
