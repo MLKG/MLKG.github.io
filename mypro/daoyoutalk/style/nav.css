@@ -134,6 +134,7 @@ body {
   position: absolute;
   left: 0;
   top: 39.5px;
+  z-index: 1;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -172,6 +173,7 @@ body {
   position: absolute;
   left: 0;
   top: 39.5px;
+  z-index: 1;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -224,6 +226,7 @@ body {
   position: absolute;
   left: 0;
   top: 39.5px;
+  z-index: 1;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
@@ -281,6 +284,7 @@ body {
   position: absolute;
   left: 0;
   top: 39.5px;
+  z-index: 1;
   width: 200%;
   border-top: 1px solid #c8c8c8;
   transform-origin: 0 0;
