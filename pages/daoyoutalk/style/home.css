@@ -160,6 +160,7 @@ body {
 .home-list__img_width {
   width: 100%;
   border: none;
+  height: 165px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
